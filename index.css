@@ -1,0 +1,58 @@
+body{
+    background: darkcyan;
+    
+}
+.container-fluid{
+    background-color: black;
+}
+.left-padding{
+    margin-left: 10vw;
+}
+.container_hor1{
+    display: flex;
+    justify-content: center;
+    padding-top:5vw;
+    font-size: 50px;
+}
+.container_ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container_hor2{
+    display: flex;
+    justify-content: center;
+    padding-top:1vw;
+}
+.container_hor3{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.container_hor4 {
+    display: flex;
+    justify-content: center;
+    padding-top:1vw;
+    gap: 3vw;
+    transition: 0.3s;
+    
+}
+.card{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(12, 1, 1, 0.938);
+    transition: 0.3s;
+    font-size: 95%;
+    padding: 20px;
+
+}
+.card :hover{
+  font-size: 110%;
+  height: 
+  transition: 0.3s;
+} 
+
+
+
+
